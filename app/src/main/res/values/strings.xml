@@ -64,4 +64,5 @@
         <item>Tifoidea</item>
         <item>Dengue</item>
     </string-array>
+    <string name="cerrar_sesion">Cerrar sesión</string>
 </resources>

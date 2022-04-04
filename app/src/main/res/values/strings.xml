@@ -40,4 +40,28 @@
     <string name="menu">Menú</string>
     <string name="info">Información</string>
     <string name="noticias">Noticias</string>
+    <string name="vacunaCombinada">
+        Combinada DTP a, IPV
+        Hepatitis B, Hib (HEXA)
+    </string>
+    <string name="vacunaDos">Hepatitis B</string>
+    <string name="seleccioneVacuna">Seleccione la vacuna</string>
+    <string-array name="lista_vacunas">
+        <item>Hepatitis B</item>
+        <item>Tuberculosis</item>
+        <item>Rota Virus</item>
+        <item>Combinada DTP A, IPV, Hepatitis B, Hib (HEXA)</item>
+        <item>Neumoco y Otitis Media</item>
+        <item>Influenza</item>
+        <item>Sarampeón Rubéola y Parotiditis</item>
+        <item>Varicela</item>
+        <item>Hepatitis A</item>
+        <item>Combinada DTPa, IPV, Hib</item>
+        <item>Combinada DTPa</item>
+        <item>DTPa</item>
+        <item>Virus del papiloma humano Tipos 6, 11, 16, 18 (VPH)</item>
+        <item>Meningococo</item>
+        <item>Tifoidea</item>
+        <item>Dengue</item>
+    </string-array>
 </resources>

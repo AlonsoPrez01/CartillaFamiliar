@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CartillaFamiliar">
         <activity
+            android:name=".ListaVacunas"
+            android:exported="false" />
+        <activity
             android:name=".Inicio"
             android:exported="false" />
         <activity

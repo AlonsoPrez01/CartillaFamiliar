@@ -8,4 +8,5 @@
     <color name="azul_cuatro">#0FFFF8</color>
     <color name="azul_cinco">#5BFFF8</color>
     <color name="gris">#737A7D</color>
+    <color name="transparent">#00000000</color>
 </resources>

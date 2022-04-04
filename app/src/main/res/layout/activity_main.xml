@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/userLogin"
+        android:layout_width="120dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.500"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_login_24"
+        android:contentDescription="@string/descLogin" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/userMail"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="115dp"
+        android:background="@drawable/input_texts"
+        android:ems="10"
+        android:hint="@string/inputEmail"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColorHint="@color/azul_dos"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userLogin"
+        android:importantForAutofill="no" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/userPassword"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="@string/inputPassword"
+        android:textColorHint="@color/azul_dos"
+        android:background="@drawable/input_texts"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userMail"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/textViewBienvenido"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/bienvenido"
+        android:textSize="30sp"
+        android:textColor="@color/azul_dos"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userLogin" />
+
+    <Button
+        android:id="@+id/iniciarSesion"
+        android:layout_width="350dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/btnIniciarSesión"
+        android:textSize="20sp"
+        android:background="@drawable/btns_form"
+        android:onClick="iniciarSesion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userPassword"
+        tools:ignore="UsingOnClickInXml"/>
+
+    <CheckBox
+        android:id="@+id/recordarCuenta"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnRecordarCuenta"
+        android:textSize="15sp"
+        android:textColor="@color/gris"
+        app:buttonTint="@color/gris"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iniciarSesion" />
+
+    <Button
+        android:id="@+id/recuperarCuenta"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="190dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnRecuperarCuenta"
+        android:textColor="@color/gris"
+        android:textSize="15sp"
+        android:onClick="recuperarCuenta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toEndOf="@+id/recordarCuenta"
+        app:layout_constraintTop_toBottomOf="@+id/iniciarSesion"
+        tools:ignore="UsingOnClickInXml"/>
+
+    <Button
+        android:id="@+id/Registrarse"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="48dp"
+        android:text="@string/btnRegistrarse"
+        android:textColor="@color/gris"
+        android:textSize="15sp"
+        android:onClick="registrarUser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        tools:ignore="UsingOnClickInXml" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

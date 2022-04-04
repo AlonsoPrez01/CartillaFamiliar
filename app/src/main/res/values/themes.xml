@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CartillaFamiliar" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/azul_uno</item>
+        <item name="colorPrimaryVariant">@color/azul_uno</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/azul_tres</item>
+        <item name="colorSecondaryVariant">@color/azul_tres</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.CartillaFamiliar.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.CartillaFamiliar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/azul_uno</item>
+        <item name="colorPrimaryVariant">@color/azul_uno</item>
+        <item name="colorSecondary">@color/azul_tres</item>
+        <item name="colorSecondaryVariant">@color/azul_tres</item>
+        <item name="colorOnSecondary">@color/black</item>
+    </style>
+
+    <style name="Theme.CartillaFamiliar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

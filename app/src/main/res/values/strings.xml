@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">CartillaFamiliar</string>
+    <string name="descLogin">Login</string>
+    <string name="inputEmail">Correo electronico*</string>
+    <string name="inputPassword">Contraseña*</string>
+    <string name="btnIniciarSesión">INICIAR SESIÓN</string>
+    <string name="btnRecordarCuenta">Recordar Cuenta</string>
+    <string name="btnRecuperarCuenta">Recuperar Cuenta</string>
+    <string name="btnRegistrarse">Registrarse</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="btnComenzar">Comenzar</string>
+    <string name="btnCancel">Cancelar</string>
+    <string name="iniciemos">Iniciemos creando tu cuenta</string>
+    <string name="iniciemos_dos">
+        posteriormente podrás registrar a tus familiares
+        (hijos, padres o cualquier familiar)
+    </string>
+    <string name="desc">Descripción</string>
+    <string name="generalInfo">Información general</string>
+    <string name="inputNombre">Nombre*</string>
+    <string name="inputApellidoPaterno">Apellido Paterno*</string>
+    <string name="inputApellidoMaterno">Apellido Materno*</string>
+    <string name="inputSexo">Sexo*</string>
+    <string name="fechaNacimiento">Fecha de nacimiento: (dd/mm/aaaa)*</string>
+    <string name="infoNacimiento">Información de tu nacimiento</string>
+    <string name="pesoNacer">Peso al nacer (0.0Kg)</string>
+    <string name="edadGestal">Edad gestal</string>
+    <string name="tipoSangre">Tipo de sangre</string>
+    <string name="infoInicioSesion">Información de inicio de sesión</string>
+    <string name="registroExitoso">Registro Exitoso</string>
+    <string name="permisoRegistroVacunas">
+        Ya puedes dar de alta las vacunas de:
+        "Nombre del usuario registrado"
+    </string>
+    <string name="correoAsociado">Correo electronico asociado*</string>
+    <string name="recuperar">Recuperar</string>
+    <string name="itemAddvacuna">Agregar Vacuna</string>
+    <string name="vacunas">Vacunas</string>
+    <string name="subtitleVacunas">de: Viena Madison Lujan Leon</string>
+    <string name="menu">Menú</string>
+    <string name="info">Información</string>
+    <string name="noticias">Noticias</string>
+</resources>
